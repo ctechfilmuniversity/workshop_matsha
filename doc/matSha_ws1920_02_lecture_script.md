@@ -36,15 +36,15 @@ The focus of today will be more on hands-on, explorative exercises.
 
 ## The Shader Pipeline
 
-<img src="../img/shader_pipeline_vert.png" alt="shader_pipeline_vert" style="width:105%;">
+<img src="img/shader_pipeline_vert.png" alt="shader_pipeline_vert" style="width:105%;">
 
 
-<img src="../img/shader_pipeline_frag.png" alt="shader_pipeline_frag" style="width:100%;">
+<img src="img/shader_pipeline_frag.png" alt="shader_pipeline_frag" style="width:100%;">
 
 
 The fragment shader is the OpenGL pipeline stage after a primitive is rasterized.  
 
-<img src="../img/pipeline.png" alt="pipeline" style="width:90%;">
+<img src="img/pipeline.png" alt="pipeline" style="width:90%;">
 
 * The 3D engine / host program fills OpenGL-managed memory buffers with arrays of vertices
 * These vertices are projected into screen space, assembled into triangles, and rasterized into pixel-sized fragments. 
@@ -63,7 +63,7 @@ The remaining visible parts are then broken into pixel-sized fragments.
 
 The vertex shader's varying outputs are also interpolated across the rasterized surface of each triangle, assigning a smooth gradient of values to each fragment.  
 
-<img src="../img/interpolation.png" alt="interpolation" style="width:50%;">
+<img src="img/interpolation.png" alt="interpolation" style="width:50%;">
 
 If the vertex shader assigns a color value to each vertex, for instance, the rasterizer will blend those colors across the pixelated surface.
 
@@ -76,7 +76,7 @@ Keep in mind that Shaders are mini-programmes compiled to run on the GPU.
 
 The GPU has lots of processors and each rendering stage is or can be split into many separate calculations, for example to compute each fragment.
 
-<img src="../img/gpu_fragments.png" alt="gpu_fragments" style="width:100%;">
+<img src="img/gpu_fragments.png" alt="gpu_fragments" style="width:100%;">
 
 
 This means that we compute the rendering in parallel - which makes it much faster than doing it with a CPU-based software renderer where we only have 1-8 processors.
@@ -118,7 +118,7 @@ WebGL programs consist of control code written in JavaScript and shader code tha
 
 OpenGL ES (Embedded Systems) is a cut down version of the full OpenGL specification aimed at mobile devices.  
 
-<img src="../img/webgl.png" alt="webgl" style="width:60%;">
+<img src="img/webgl.png" alt="webgl" style="width:60%;">
 
 
 As the usage of pure WebGL is quite tedious, 'helper' frameworks are tremendously popular, as for example Shader Toy.
@@ -327,7 +327,7 @@ Some example I like:
 
 For rendering, we need to convert a 3D scene representation into a 2D raster. 
 
-<img src="../img/frustum.png" alt="frustum" style="width:70%;">
+<img src="img/frustum.png" alt="frustum" style="width:70%;">
 
 There are several rendering algorithms to do so in countless flavors. 
 
@@ -337,17 +337,17 @@ Physically-based rendering is so-called *ray tracing* and its physical foundatio
 * Transported through the scene by reflection at surfaces
 * Ends up in the eye
 
-<img src="../img/raytracing_01.png" alt="raytracing_01" style="width:40%;">
+<img src="img/raytracing_01.png" alt="raytracing_01" style="width:40%;">
 
 Light transport is reversible with respect to time and we can trace the light rays backwards, starting in the eye, ending in the light source.
 
 
-<img src="../img/raytracing_02.png" alt="raytracing_02" style="width:40%;">
+<img src="img/raytracing_02.png" alt="raytracing_02" style="width:40%;">
 
 Advantage: We are interested only in the light that hits the eye, anyways!
 
 
-<img src="../img/raytracing_02.png" alt="raytracing_02" style="width:40%;">
+<img src="img/raytracing_02.png" alt="raytracing_02" style="width:40%;">
 
 For every point on the image plane,
 
@@ -356,7 +356,7 @@ For every point on the image plane,
 * store it in the image.
 
 
-<img src="../img/raytracing_04.png" alt="raytracing_04" style="width:100%;">
+<img src="img/raytracing_04.png" alt="raytracing_04" style="width:100%;">
 
 
 ## Let's Implement This!
