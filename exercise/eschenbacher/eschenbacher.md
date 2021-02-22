@@ -14,13 +14,13 @@
 
 8. <img src="monstera.jpeg" width="500px">
 
-9. <img src="pot_3.jpeg" width="500px"><img src="pot_2.jpeg" width="500px">
+9. <img src="pot_3.jpeg" width="500px"><img src=" pot_2.jpeg" width="500px">
 - very reflective at the top
 - less reflective at the lower part
 - higlights distorted by shape
 - direct light source necessary for strong highlights
 
-10. <img src="chromeball_1.jpeg" width="500px"><img src="chromeball_2.jpeg" width="500px">
+10. <img src="chromeball_1.jpeg" width="500px"><img src="chromeball_2.jpg" width="500px">
 - very reflective
 - clear highlights
 - changes a lot with change in surrounding light
