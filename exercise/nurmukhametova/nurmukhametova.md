@@ -1,2 +1,2 @@
 Here are my materials: 
-!(./IMG_0130.JPG)
+!(/IMG_0130.JPG)
