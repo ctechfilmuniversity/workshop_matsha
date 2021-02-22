@@ -1,7 +1,7 @@
 # Fotos of interesting shaded things
 direct light | indirect light
 :-------------------------:|:-------------------------:
-![](img/IMG_3026.jpg) | ![](img/IMG_3027.jpg)
+![](/img/IMG_3026.jpg) | ![](img/IMG_3027.jpg)
 ![](img/IMG_3029.jpg) | ![](img/IMG_3030.jpg)
 ![](img/IMG_3032.jpg) | ![](img/IMG_3033.jpg)
 ![](img/IMG_3036.jpg) | ![](img/IMG_3038.jpg)
