@@ -10,7 +10,7 @@ let CUSTOM_SHADER_ON = 0;
 // These only works without shaders on
 // Lights
 let DIR_LIGHTS = 1;
-let SPECULAR_ON = 1; // DIR_LIGHTS must be on
+let SPECULAR_ON = 0; // DIR_LIGHTS must be on
 let SECOND_DIR_LIGHT = 0; // the red light
 
 
