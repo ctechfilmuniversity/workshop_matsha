@@ -1,16 +1,16 @@
 # Fotos of interesting shaded things
 direct light | indirect light
 :-------------------------:|:-------------------------:
-![](/img/IMG_3026.jpg) | ![](img/IMG_3027.jpg)
-![](img/IMG_3029.jpg) | ![](img/IMG_3030.jpg)
-![](img/IMG_3032.jpg) | ![](img/IMG_3033.jpg)
-![](img/IMG_3036.jpg) | ![](img/IMG_3038.jpg)
-![](img/IMG_3042.jpg) | ![](img/IMG_3045.jpg)
-![](img/IMG_3052.jpg) | ![](img/IMG_3055.jpg)
-![](img/IMG_3058.jpg) | ![](img/IMG_3060.jpg)
-![](img/IMG_3061.jpg) | ![](img/IMG_3062.jpg)
-![](img/IMG_3064.jpg) | ![](img/IMG_3069.jpg)
-![](img/IMG_3074.jpg) | ![](img/IMG_3076.jpg)
+![](/img/IMG_3026.JPG) | ![](img/IMG_3027.JPG)
+![](img/IMG_3029.JPG) | ![](img/IMG_3030.JPG)
+![](img/IMG_3032.JPG) | ![](img/IMG_3033.JPG)
+![](img/IMG_3036.JPG) | ![](img/IMG_3038.JPG)
+![](img/IMG_3042.JPG) | ![](img/IMG_3045.JPG)
+![](img/IMG_3052.JPG) | ![](img/IMG_3055.JPG)
+![](img/IMG_3058.JPG) | ![](img/IMG_3060.JPG)
+![](img/IMG_3061.JPG) | ![](img/IMG_3062.JPG)
+![](img/IMG_3064.JPG) | ![](img/IMG_3069.JPG)
+![](img/IMG_3074.JPG) | ![](img/IMG_3076.JPG)
 
 
 comparing the wooden pepper mill (9) and the ceramic spoon (4)
