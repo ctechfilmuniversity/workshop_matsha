@@ -7,6 +7,8 @@ __We want to create a digital anti stress room in VR__
 ### MOODS
 <img src="https://i.imgur.com/LeXl7Dl.png" width="900px">
 
+[elastic man](https://www.adultswim.com/etcetera/elastic-man/)
+
 ### BASIC SETUP
 - the basic setup is a room with 4 walls and a floor
 - each plane has a different material like:
