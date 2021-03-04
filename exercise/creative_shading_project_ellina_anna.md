@@ -4,6 +4,9 @@ __We want to create a digital anti stress room in VR__
 - it's filled with with objects of different materials and their physical properties
 - the goal is to reduce stress by touch interaction
 
+### MOODS
+<img src="https://i.imgur.com/LeXl7Dl.png" width="900px">
+
 ### BASIC SETUP
 - the basic setup is a room with 4 walls and a floor
 - each plane has a different material like:
@@ -20,5 +23,4 @@ __We want to create a digital anti stress room in VR__
 - perfectly matching sounds for interaction
 - more advanced interaction: (unexpected) tactile feedback
 
-### MOODS
-<img src="https://i.imgur.com/LeXl7Dl.png" width="900px">
+
