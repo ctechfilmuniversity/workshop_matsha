@@ -5,32 +5,52 @@ nav_order: 1
 has_children: false
 ---
 
-# Welcome!
+**Workshop Materials & Shading** 
 
-In this workshop, we are looking into aspects of **rendering a 3D scene** in a fragment shader.
+Prof. Dr. Lena Gieseke | l.gieseke@filmuniversitaet.de | Film University Babelsberg *KONRAD WOLF*
 
-![shader_repetition.png](img/shader_repetition.png)
+Winter Term 21/22
 
-## Workshop Topics
+---
 
-* GLSL & the Fragment Shader
-* Rendering Algorithms
-* Implicit Geometry
-* Sphere Tracing
-* 3D Scene Setup
-* Transformations
-* Constructive Solid Geometry
-* Blobs
-* Further Effects
-* Examples
-* Creative Exploration
-* (Volume Rendering)
+![shading](../img/shading.png)
 
-This workshop will not cover shading and lighting in detail. For that there is the upcoming *Materials & Shading* workshop.
+## Topics
+
+* Intro to Shading
+* Local Illumination
+* Local Shading Models
+* Implementation of p5's materials
+* NPR Shading
+* Rending Equation
+* Scene rendering in a fragment shader
+* Material interfaces
+
+Please note that topics are still subject to change during the workshop!
+
 
 ## Learning Objectives
 
-With this workshop you gain
+With this course, you will
 
-* a theoretical understanding of rendering a 3D scene within the fragement shader 
-* practical experiences with GLSL and fragment shader programming.
+* Understand what shading is
+* Grasp core theoretical concepts of shading, lighting and rendering
+* Be able to implement basic shading concept within a 3D engine
+* Be able to go from there to explore creative shading options
+* Understand modern shader development and the capabilities of fragment shaders
+* Be able to implement modern fragment shaders in a creative context
+
+
+## Grading
+
+This workshop is part of the `Creative Technologies II` course and counts for 1 SWS and 1 ECTS. You can get more ECTS with additional project work. There is no grade for the workshop.
+
+## Materials
+
+* [`doc`](doc/): slides (to be added)
+* [`code`](code/): code examples and project files
+* [`exercise`](exercise): please upload your exercise result here, in a folder with your first name
+
+---
+
+🤩

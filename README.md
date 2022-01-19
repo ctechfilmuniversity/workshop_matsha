@@ -6,6 +6,10 @@ Winter Term 21/22
 
 ---
 
+Please go here: https://ctechfilmuniversity.github.io/workshop_matsha/
+
+---
+
 ![shading](img/shading.png)
 
 ## Topics
