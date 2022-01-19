@@ -10,7 +10,7 @@ Please go here: https://ctechfilmuniversity.github.io/workshop_matsha/
 
 ---
 
-![shading](img/docs/shading.png)
+![shading](docs/img/shading.png)
 
 ## Topics
 
