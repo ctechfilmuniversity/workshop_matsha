@@ -16,7 +16,7 @@ Film University Babelsberg *KONRAD WOLF*
 
 ---
 
-![shading](../img/shading.png)
+![shading](img/shading.png)
 
 ## Topics
 
