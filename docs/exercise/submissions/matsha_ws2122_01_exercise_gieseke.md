@@ -1,3 +1,9 @@
+---
+layout: default
+title: 404
+nav_exclude: true
+---
+
 # Hello
 
 This is just a placeholder file as example for the file structure.

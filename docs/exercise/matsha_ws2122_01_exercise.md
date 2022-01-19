@@ -1,3 +1,10 @@
+---
+layout: default
+title: 404
+nav_exclude: true
+---
+
+
 # Exercise 1
 
 ## Let's Look At Some Materials  🔎
@@ -6,6 +13,15 @@
     * Add your images to a file 'matsha_ws2122_01_exercise_surname.md'
     * Upload that file to https://github.com/ctechfilmuniversity/workshop_matsha/tree/master/docs/exercise/submissions/
     * Link and upload your images to https://github.com/ctechfilmuniversity/workshop_matsha/tree/master/docs/exercise/submissions/img/
+    * Please add the following header to your .md file at the top:
+
+```
+---
+layout: default
+title: 404
+nav_exclude: true
+---
+```
 
 2. Describe and compare two interesting shading behaviors in your photos as bullet points.
     * If possible, move the object and see how it reacts to different lighting situations. 
@@ -18,7 +34,7 @@
 Let's meet again in 40 minutes.
 
 
-## Sumissions
+## Submissions
 
 * [Lena](submissions/matsha_ws2122_01_exercise_gieseke.md)
 
