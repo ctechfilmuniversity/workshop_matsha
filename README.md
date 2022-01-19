@@ -2,7 +2,7 @@
 
 Prof. Dr. Lena Gieseke | l.gieseke@filmuniversitaet.de | Film University Babelsberg *KONRAD WOLF*
 
-Winter Term 20/21
+Winter Term 21/22
 
 ---
 
