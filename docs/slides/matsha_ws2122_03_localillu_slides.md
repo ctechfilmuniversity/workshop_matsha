@@ -45,6 +45,8 @@ template:inverse
 
 
 ---
+layout: false
+
 .header[Let's re-implement p5's materials!]
 
 ## Remember:

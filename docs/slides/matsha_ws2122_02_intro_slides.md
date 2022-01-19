@@ -34,6 +34,8 @@ template:inverse
 # Introduction
 
 ---
+layout: false
+
 .header[Introduction]
 
 ## 3D Engines
@@ -396,45 +398,3 @@ This is done based on characteristics such as
 
 On each of which we are going to have a look on now.
 
----
-template:inverse
-
-### Exercise
-
-## Let's Look At Some Materials  🔎
-
----
-
-## Tasks
-
---
-
-* Photograph at least 10 materials, including different shadings.
-    * Create a .md with your images.
-
---
-
-* Describe and compare two interesting shading behaviors in your photos as bullet points.
-
---
-    * If possible, move the object and see how it reacts to different lighting situations. 
-    * How does the shading look like and why?
-    * What kind of highlights does the object have?
-    * How do the highlights change when you move the object?
-    * Add your text to the .md of 1.
-
---
-
-Let's meet again in 40 minutes.
-
-
-???
-
-.task[TASK:] 
-
-* 10 min to collect different materials, 20min to describe and compare -> 45min
-* Task 2 will be easier with objects you can move to investigate the reflective behavior
-
-
-* Slides < 60 ca. 45min - 1h, task + discussion 1h, break 10min => ca. 2:10
-* Slide ~ca 60
