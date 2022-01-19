@@ -5,11 +5,14 @@ nav_order: 1
 has_children: false
 ---
 
-**Workshop Materials & Shading** 
+# Workshop Materials & Shading
 
-Prof. Dr. Lena Gieseke | l.gieseke@filmuniversitaet.de | Film University Babelsberg *KONRAD WOLF*
-
-Winter Term 21/22
+Prof. Dr. Lena Gieseke  
+l.gieseke@filmuniversitaet.de  
+Film University Babelsberg *KONRAD WOLF*
+  
+   
+### Winter Term 21/22
 
 ---
 
