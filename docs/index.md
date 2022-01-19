@@ -48,12 +48,6 @@ With this course, you will
 
 This workshop is part of the `Creative Technologies II` course and counts for 1 SWS and 1 ECTS. You can get more ECTS with additional project work. There is no grade for the workshop.
 
-## Materials
-
-* [`doc`](doc/): slides (to be added)
-* [`code`](code/): code examples and project files
-* [`exercise`](exercise): please upload your exercise result here, in a folder with your first name
-
 ---
 
 🤩
