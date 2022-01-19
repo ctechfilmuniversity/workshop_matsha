@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 404
+title: Exercise
 nav_exclude: true
 ---
 
@@ -18,7 +18,7 @@ nav_exclude: true
 ```
 ---
 layout: default
-title: 404
+title: Exercise
 nav_exclude: true
 ---
 ```
