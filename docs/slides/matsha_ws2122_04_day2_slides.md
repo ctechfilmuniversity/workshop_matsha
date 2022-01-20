@@ -128,45 +128,6 @@ What we are working with today:
 
 [[Evas GL Programming Guide]](https://www.enlightenment.org/playground/evas-gl.md)
 
-
----
-template:inverse
-
-## p5 Scene Setup
-
----
-
-## p5 Scene Setup
-
-The given scene gives the environment for learning to implement basic shading algorithms. It includes
-
-* Ambient light
-* Directional, colored lights
-* Ambient material
-* Specular material
-
-???
-
-.task[TASK:] Go through code
-* Note: specular highlight color can only be set with spec light color
-
-
---
-
-p5 has some behavioral specifics but these are straight-forward to understand. The general concepts should be similar in any other 3D rendering context, e.g. in Unity.
-
-
-???
-
-.task[TASK:] 
-
-
-* Show p5 source: https://github.com/processing/p5.js/blob/main/src/webgl/shaders/lighting.glsl
-* Find uniform variables coming from the environment
-* https://github.com/processing/p5.js/blob/1b13b400fcbe2e6c6290262fcf06425dbf4efcf5/contributor_docs/webgl_mode_architecture.md
-* Example shadertoy: https://www.shadertoy.com/howto
-
-
 ---
 
 ### ***Insight 4:*** Phong Shading Model (BRDF)
@@ -264,7 +225,16 @@ light_ambient + shading_diffuse + light_specular * max(0, R ∙ V)^n;
 --
 Let's implement that! 👩🏽‍💻🧑🏻‍💻
 
-???
 
-* The expression (N ⋅ L > 0) is a boolean expression that evaluates to 1 if true and 0 otherwise. This prevents specular highlights from showing up at points on a surface that face away from the light source. 
-* steps 18+
+???
+.task[COMMENT:]  
+
+* Code steps 1-17
+* Go through code
+* Note: specular highlight color can only be set with spec light color
+  
+    
+* Show p5 source: https://github.com/processing/p5.js/blob/main/src/webgl/shaders/lighting.glsl
+* Find uniform variables coming from the environment
+* https://github.com/processing/p5.js/blob/1b13b400fcbe2e6c6290262fcf06425dbf4efcf5/contributor_docs/webgl_mode_architecture.md
+* Example shadertoy: https://www.shadertoy.com/howto
