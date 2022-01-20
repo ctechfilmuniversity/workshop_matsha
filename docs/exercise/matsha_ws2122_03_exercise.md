@@ -21,6 +21,4 @@ nav_exclude: true
 * Outline around highlight 
 -->
 
-???
-
-Start with the [code frame](../code/shader_sphere_toon/) and implement [the steps](../code/shader_sphere_toon/shader_sphere_toon_steps.md) one by one.
+Start with the  code frame `../code/shader_sphere_toon/` and implement [the steps](../code/shader_sphere_toon/shader_sphere_toon_steps.md) one by one.
