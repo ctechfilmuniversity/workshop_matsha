@@ -11,7 +11,5 @@ nav_exclude: true
 
 Make sure to have working setup with VSCode, p5 and starting a server.
 
-...
-
-## Sumissions
+Then start with the [code frame](../code/shader_sphere_all/) and implement [the steps](../code/shader_sphere_all/shader_sphere_all_steps.md) one by one.
 
