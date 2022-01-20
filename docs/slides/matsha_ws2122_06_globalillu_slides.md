@@ -23,7 +23,8 @@ t: Reset presentation timer
 <number> + <Return>: Jump to slide <number>
 -->
 
-
+---
+layout:false
 
 ## Local Illumination
 

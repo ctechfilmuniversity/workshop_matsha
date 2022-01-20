@@ -30,6 +30,7 @@ template: inverse
 ## BRDF?
 
 ---
+layout:false
 
 ## Phong BRDF
 
