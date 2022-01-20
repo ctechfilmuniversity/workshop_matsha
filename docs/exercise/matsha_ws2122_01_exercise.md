@@ -38,5 +38,9 @@ Describe and compare two interesting shading behaviors in your photos as bullet 
 
 ## Submissions
 
-* [Lena](submissions/matsha_ws2122_01_exercise_gieseke.md)
+* [India](submissions/matsha_ws2122_01_exercise_aparicio.md)
+* [Johanna](submissions/matsha_ws2122_01_exercise_hartmann.md)
+* [Lucas](submissions/matsha_ws2122_01_exercise_gray.md)
+* [Malte](submissions/matsha_ws2122_01_exercise_hillebrand.md)
+* [Sebastian](submissions/matsha_ws2122_01_exercise_wilhelm.md)
 
