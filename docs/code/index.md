@@ -8,3 +8,6 @@ has_children: false
 # Code
 
 In this section you find all code examples for the course.
+
+* [p5 sphere - Phong](shader_sphere_all/)
+* [p5 sphere - Toon](shader_sphere_toon/)

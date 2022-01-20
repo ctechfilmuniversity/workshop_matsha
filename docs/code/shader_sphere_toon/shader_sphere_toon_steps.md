@@ -4,10 +4,9 @@ title: Exercise
 nav_exclude: true
 ---
 
+## Basic Toon Shading
 
-# Basic Toon Shading
-
-## Let's load an obj model
+### Let's load an obj model
 
 ```js
 //sketch.js
@@ -38,7 +37,7 @@ function draw()
 }
 ```
 
-## The Toon Shading Model
+### The Toon Shading Model
 
 As the toon shader does not differentiate much between the different light and and reflection properties, we start off with a simpler code frame.
 
