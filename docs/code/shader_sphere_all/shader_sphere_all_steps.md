@@ -1,3 +1,10 @@
+---
+layout: default
+title: Exercise
+nav_exclude: true
+---
+
+
 ## Setting Up Your Own Shaders
 
 ### TODO 1

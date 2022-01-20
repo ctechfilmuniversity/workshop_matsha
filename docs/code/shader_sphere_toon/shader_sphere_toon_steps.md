@@ -1,3 +1,10 @@
+---
+layout: default
+title: Exercise
+nav_exclude: true
+---
+
+
 # Basic Toon Shading
 
 ## Let's load an obj model
