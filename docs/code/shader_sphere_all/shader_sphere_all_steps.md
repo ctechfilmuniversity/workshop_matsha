@@ -105,12 +105,12 @@ void main()
 
 ### TODO 6
 
-Add uniforms and attributes to vertex shader
+Add uniforms and attributes to fragment shader
 
 ```glsl
 // sphere_all.frag
 
-
+// This is causing p5 to behave strangely
 // GL_ES: The Standard for Embedded Accelerated 3D Graphics
 // #ifdef GL_ES
 //     // Setting numbers to "medium" precision and range
@@ -188,10 +188,11 @@ Ambient light is constant an can be summed up in the vertex shader
 
 // TODO 8
 // LIGHT
-    // The ambient color does not depend
+// The ambient color does not depend
 // one the fragment, hence we can
-// assemble it more effeciently in the 
-// vertex than in the fragement shader    v_light_color_ambient = vec3(0.0);
+// assemble it more efficiently in the 
+// vertex than in the fragment shader    
+v_light_color_ambient = vec3(0.0);
 for (int i = 0; i < LIGHTS_NUMBER_MAX; i++)
 {
     if (i < uAmbientLightCount) 
@@ -308,7 +309,9 @@ Iterating in `all_lights()` over all lights
         }
         // The above would be needed to be done for 
         // point- and spotlights as well
-        // Execerise: Include point lights
+        // Exercise: Include point lights
+        // You can use p5's implementation as reference
+        // https://github.com/processing/p5.js/blob/main/src/webgl/shaders/lighting.glsl
     }
     // TODO 23
 
@@ -465,6 +468,8 @@ Multiply the specular value to the specular color of that light
 // TODO 20
 vec3 light_color_spec = uDirectionalSpecularColors[j];
 total_spec += mat.specular * light_color_spec; 
+// OR (as p5 does it) 
+// total_spec += mat.specular * light_color_spec * light_color_diff; 
 ```
 
 ### TODO 21

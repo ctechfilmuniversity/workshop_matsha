@@ -68,11 +68,7 @@ function draw()
 
     // VIEW
     // Camera with its default values
-    camera(0, 0, (height/2.0) / tan(PI*30.0 / 180.0), 0, 0, 0, 0, 1, 0);
-
-    // ModelView Matrix
-    // For checking correct coordinate transforms
-    // translate(-200, -200, 0);
+    // camera(0, 0, (height/2.0) / tan(PI*30.0 / 180.0), 0, 0, 0, 0, 1, 0);
     
 
     // LIGHTING
