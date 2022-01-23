@@ -5,7 +5,9 @@ nav_exclude: true
 ---
 
 
-# Exercise 6 - Shading Interfaces
+# Exercise 6
+
+## Shading Interfaces
 
 The theory, everything we have learned in this class is the same no matter the (software) environment. Usually the different shading interface do relate in one way or the other to the same principles. However, there are of course great differences in their implementation details.  
 
