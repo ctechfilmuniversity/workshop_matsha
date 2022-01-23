@@ -7,7 +7,7 @@ nav_exclude: true
 
 # Exercise 7
 
-## Creative Project Development
+## Creative Project Development 🎉
 
 Develop a project in two randomly assigned groups for the the *Shading Appreciation Society*.  
 
