@@ -43,7 +43,7 @@ nav_exclude: true
 
 ## Example Interface: Houdini
 
-.center[<img src="../img/houdini_01.png" alt="houdini_01" style="width:100%;">]
+![houdini_01](../img/houdini_01.png)
 
 ### Introduction To Shading in Houdini
 
