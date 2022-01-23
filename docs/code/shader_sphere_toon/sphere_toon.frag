@@ -28,6 +28,7 @@ varying vec3 v_pos_view;
 
 // TODO 2b
 
+
 // Sum up intensities from all lights
 // The out parameter syntax is similar to (but not exactly like) pass-by-reference
 void all_lights(
@@ -41,8 +42,7 @@ void all_lights(
     // points from point to camera
     vec3 view_dir = normalize(-pos_view);
 
-    // TODO 1
-    toon_shading = vec3(0,0,1);
+    // TODO 1c
 
     for (int j = 0; j < 8; j++)
     {
@@ -54,11 +54,11 @@ void all_lights(
 
             // TODO 2a
 
-
+            
             // TODO 2c
 
-
             // TODO 4a
+
 
 
             // TODO 4b
@@ -68,16 +68,19 @@ void all_lights(
 
     // TODO 3
 
-
 }
 
 void main(void) 
 {
     vec3 toon_shading;
-    all_lights(v_pos_view, v_normal, toon_shading);
+    
+    // TODO 1a
 
-    gl_FragColor = uMaterialColor;
-    gl_FragColor.rgb = toon_shading;
+
+    // TODO 1b
+
+
+    gl_FragColor = vec4(1.0);
 }
 
 

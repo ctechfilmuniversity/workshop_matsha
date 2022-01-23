@@ -1,12 +1,6 @@
----
-layout: default
-title: Exercise
-nav_exclude: true
----
+# Basic Toon Shading
 
-## Basic Toon Shading
-
-### Let's load an obj model
+## Let's load an obj model
 
 ```js
 //sketch.js
@@ -37,7 +31,7 @@ function draw()
 }
 ```
 
-### The Toon Shading Model
+## The Toon Shading Model
 
 As the toon shader does not differentiate much between the different light and and reflection properties, we start off with a simpler code frame.
 
@@ -48,8 +42,21 @@ As the toon shader does not differentiate much between the different light and a
 As base or 'ambient' color, we flat shade with the material diffuse color
 
 ```glsl
-// TODO 1
+
+// TODO 1a
 // 'Ambient' color is the material color
+gl_FragColor = uMaterialColor;
+```
+
+```glsl
+// TODO 1b
+all_lights(v_pos_view, v_normal, toon_shading);
+gl_FragColor.rgb = toon_shading.rgb;
+```
+
+
+```glsl
+// TODO 1c
 toon_shading = uMaterialColor.rgb;
 ```
 
@@ -59,7 +66,8 @@ First we compute the diffuse component as usual
 
 ```glsl
 // TODO 2a
-float diffuse = max(0.0, dot(-light_dir, v_normal));
+            float diffuse = max(0.0, dot(-light_dir, v_normal));
+            //toon_shading = vec3(diffuse); // only for testing
 ```
 
 The compute diffuse value has a range of 0..1. We can multiply this with the number of shading levels we want to create and use the `floor` function to create the steps. Then we transform the value back to a range of 0..1.
@@ -78,7 +86,7 @@ toon_shading += uDirectionalSpecularColors[j] * floor(diffuse * LEVELS) * SCALIN
 
 ### TODO 3: Outline
 
-For creating an outline-like as black line, we can compute and check the the angle between the view direction and the surface normal in the same way as for the diffuse value for the angle between light direction and the surface normal. 
+For creating an outline-like as black line, we can compute and check the the angle between the view direction and the surface normal in the same way we as for the diffuse value for the angle between light direction and the surface normal. 
 
 We want to draw an outline if the view direction and the surface normal are somewhat perpendicular to each other, meaning where their dot product is around 0.
 
