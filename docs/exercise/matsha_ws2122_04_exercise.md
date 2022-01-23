@@ -9,7 +9,7 @@ nav_exclude: true
 
 ## More Fun... Smooth Toon
 
-> What are the visual properties of the following shader?
+*What are the visual properties of the following shader?*
 
 ![sphere_toon](../img/npr_shading_01.png)
 
