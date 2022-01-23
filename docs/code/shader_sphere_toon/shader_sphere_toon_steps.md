@@ -1,6 +1,13 @@
-# Basic Toon Shading
+---
+layout: default
+title: Exercise
+nav_exclude: true
+---
 
-## Let's load an obj model
+
+## Basic Toon Shading
+
+Let's load an obj model...
 
 ```js
 //sketch.js

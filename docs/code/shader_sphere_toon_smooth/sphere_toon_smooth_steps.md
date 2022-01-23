@@ -1,3 +1,10 @@
+---
+layout: default
+title: Exercise
+nav_exclude: true
+---
+
+
 ## Smooth Toon Shading
 
 ## 1. Getting the Angle
