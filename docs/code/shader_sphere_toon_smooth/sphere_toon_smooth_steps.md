@@ -5,7 +5,7 @@ nav_exclude: true
 ---
 
 
-## Smooth Toon Shading
+# Smooth Toon Shading
 
 ## 1. Getting the Angle
 

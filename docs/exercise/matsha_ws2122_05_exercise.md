@@ -10,6 +10,8 @@ nav_exclude: true
 
 ## Creative Shader Ideas 🤩
 
+### Concept Development
+
 How could we use custom-made materials and shading creatively?
 
 
@@ -21,19 +23,10 @@ How could we use custom-made materials and shading creatively?
     * [Material Studies - Snow](https://hasenjager.cgsociety.org/w3p3/material-studies-sno)
     * [Material Studies - Minerals](https://www.behance.net/gallery/74271431/Material-Studies-Minerals)
     * [Decay in Unreal](https://www.artstation.com/artwork/q08rL)
-* Roughly describe your ideas in a .md file `matsha_ws2122_05_exercise_surname.md` 
-* Upload that file to `/docs/exercise/submissions/`
+* Roughly describe your ideas in the .md file `/docs/exercise/submissions/matsha_ws2122_05_exercise_group.md` 
 * If you have images, link and upload them to `/docs/exercise/submissions/img/`
-* Please add the following header to your .md file at the top:
 
-```
----
-layout: default
-title: Exercise
-nav_exclude: true
----
-```
 
-## Submissions
+## Submission
 
-* [...]()
+* [Project Idea](submissions/matsha_ws2122_05_exercise_group.md)

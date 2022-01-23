@@ -5,9 +5,9 @@ nav_exclude: true
 ---
 
 
-## Basic Toon Shading
+# Basic Toon Shading
 
-### Let's load an obj model
+## Let's load an obj model
 
 ```js
 //sketch.js
