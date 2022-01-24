@@ -18,7 +18,7 @@ Below, I offer the necessary information and tasks for Houdini. Even if you are 
 If you chose a different environment, you should complete the following requirements for this exercise:
 
 1. Investigation of the **main material(s)** of that environment (e.g. a physically based one?) and investigation of the materials' properties.
-2. Investigation of **layering** different materials into one.
+2. Investigation of **layering** different materials into one (e.g. is layering at all possible?).
 3. Investigation of **non-standard materials** and their properties.
 
 Come up with a simple but nice scene including interesting shading effects. Submit at least one rendering of that scene.
