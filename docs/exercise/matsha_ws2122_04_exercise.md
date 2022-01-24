@@ -23,4 +23,4 @@ nav_exclude: true
 
 [test](../code/shader_sphere_toon_smooth/index.html)
 
-Start with the  code frame `../code/shader_sphere_toon_smooth/` and implement [the steps](../code/shader_sphere_toon/sphere_toon_steps.md) one by one.
+Start with the  code frame `../code/shader_sphere_toon_smooth/` and implement [the steps](../code/shader_sphere_toon_smooth/shader_sphere_toon_smooth_steps.md) one by one.
