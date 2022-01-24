@@ -32,26 +32,27 @@ function preload()
     obj = loadModel('./duck.obj');
 
     // 1. vertex and fragment shaders need to be passed over
-    shaders = loadShader('sphere_all.vert', 'sphere_toon.frag');
+    shaders = loadShader('sphere_all.vert', 'sphere_toon_smooth.frag');
 }
 
 function setup() 
 {
     // GLOBAL COLOR SETTINGS
-    LIGHT_COLOR_AMBIENT = color(40, 40, 0);
+    LIGHT_COLOR_AMBIENT = color(40, 40, 40);
 
     LIGHT_COLOR_DIFF = color(200, 200, 0);
     LIGHT_COLOR_DIFF_OPPOSITE = color(200, 0, 0);
 
     LIGHT_COLOR_SPEC = color(200, 200, 0);
-    // LIGHT_COLOR_SPEC = color(200, 200, 0);
-    LIGHT_COLOR_SPEC_OPPOSITE = color(0, 200, 0);
+    // LIGHT_COLOR_SPEC = color(200, 0, 0);
+
+    LIGHT_COLOR_SPEC_OPPOSITE = color(200, 0, 0);
 
     // White material
     MATERIAL_DIFF = color(200, 0, 185);
     // MATERIAL_DIFF = color(41, 128, 185);
     MATERIAL_SPEC = color(255, 255, 0);
-    MATERIAL_SHINE = 8;
+    MATERIAL_SHINE = 2;
 
     // Regular setup stuff
     createCanvas(CANVAS_SIZE, CANVAS_SIZE, WEBGL);

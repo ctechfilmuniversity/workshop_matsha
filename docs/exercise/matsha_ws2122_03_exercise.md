@@ -5,11 +5,11 @@ nav_exclude: true
 ---
 
 
-# Exercise 4
+# Exercise 3
 
 ## Now, Let's Have Some Fun... Toon
 
-> What are the visual properties of a toon shader?
+*What are the visual properties of a toon shader?*
 
 ![sphere_toon](../img/sphere_toon.png)
 
