@@ -15,7 +15,7 @@ I leave it up to you to decide for which environment you want to investigate the
 
 Below, I offer the necessary information and tasks for Houdini. Even if you are not that crazy about using Houdini, it will refer to everything that we have learned so far nicely. It will be a good recap.
   
-If you chose a different environment, you have to complete the following requirements for this exercise:
+If you chose a different environment, you should complete the following requirements for this exercise:
 
 1. Investigation of the **main material(s)** of that environment (e.g. a physically based one?) and investigation of the materials' properties.
 2. Investigation of **layering** different materials into one.
