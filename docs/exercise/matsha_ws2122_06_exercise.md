@@ -15,10 +15,10 @@ I leave it up to you to decide for which environment you want to investigate the
 
 Below, I offer the necessary information and tasks for Houdini. Even if you are not that crazy about using Houdini, it will refer to everything that we have learned so far nicely. It will be a good recap.
   
-If you chose a different environment, you have to complete the following requirements for this exercise:
+If you chose a different environment, you should complete the following requirements for this exercise:
 
 1. Investigation of the **main material(s)** of that environment (e.g. a physically based one?) and investigation of the materials' properties.
-2. Investigation of **layering** different materials into one.
+2. Investigation of **layering** different materials into one (e.g. is layering at all possible?).
 3. Investigation of **non-standard materials** and their properties.
 
 Come up with a simple but nice scene including interesting shading effects. Submit at least one rendering of that scene.
@@ -51,9 +51,9 @@ nav_exclude: true
 
 Watch the tutorials and follow along. I recommend to increase the playback speed. When doing the tutorials, please also turn your brain on.
 
-* [Tutorial 01 - Intro Principled Shader (45:18)]([intro_principled_shader.mov](https://e.pcloud.link/publink/show?code=XZ2z6kZqlc81zzf7E0s3XWxN8pyobkK8gpk)
-* [Tutorial 02 - Intro Principled Shader - Layering Shaders (15:48)]([intro_principled_shader_layering](https://e.pcloud.link/publink/show?code=XZWz6kZcPcI7iPYtwYwI8F32cTFwQF733xX)
-* [Tutorial 03 - Intro Non-Principled Shader (19:18)]([intro_nonprincipled_shader](https://e.pcloud.link/publink/show?code=XZsz6kZJQ1M2SvwrIFWTdPhEN0Q5JJRvjrV)
+* [Tutorial 01 - Intro Principled Shader (45:18)](https://e.pcloud.link/publink/show?code=XZ2z6kZqlc81zzf7E0s3XWxN8pyobkK8gpk)
+* [Tutorial 02 - Intro Principled Shader - Layering Shaders (15:48)](https://e.pcloud.link/publink/show?code=XZWz6kZcPcI7iPYtwYwI8F32cTFwQF733xX)
+* [Tutorial 03 - Intro Non-Principled Shader (19:18)](https://e.pcloud.link/publink/show?code=XZsz6kZJQ1M2SvwrIFWTdPhEN0Q5JJRvjrV)
 
 
 *Apologies, I am making some slips in my explanations. E.g. in Tutorial 3, at 2:37, I am saying that I turn off the live render update button, but I meant to say that I am turing it on...*

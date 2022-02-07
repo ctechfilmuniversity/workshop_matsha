@@ -136,7 +136,7 @@ The BRDF \\( {f(\omega{\text{i}}, \omega{\text{r}})} \\) is a function of four v
 
 ## Glossiness
 
-BRDFs are often a carful mixture of diffuse und specular reflection, e.g. for glossiness.
+BRDFs are often a careful mixture of diffuse und specular reflection, e.g. for glossiness.
 
 --
 
