@@ -69,33 +69,32 @@ void main(void)
     all_lights_specular(view_dir, normal, specular);
 
     // 1. Angle view - normal
-    float cos_view_normal = max(0.0, dot(view_dir, normal));
+    float cos_view_normal = max(0.4, dot(view_dir, normal));
     
 
     // 2. Shaping the rim
-    float rim_width = 0.5;
+    float rim_width = 0.4;
     float rim = pow((1. - cos_view_normal), rim_width);
+    float edge = pow((1. - cos_view_normal), 0.2);
 
     // 3. Coloring the rim
-    vec3 rim_color = vec3(1.0, 0.75, 0.0);
+    vec3 rim_color = vec3(0.0706, 0.8941, 0.549);
     rim_color *= rim;
 
     // 5. Optional: a second color in the rim
-    // vec3 rim_glow_color =vec3(0.349, 0.0, 1.0);
-    vec3 rim_glow_color = vec3(1.0);
-    float rim_glow = pow((1. - cos_view_normal), rim_width * 4.);
+    // vec3 rim_glow_color =vec3(0.1804, 0.0, 0.1882);
+    vec3 rim_glow_color = vec3(0.0, 1.0, 0.298);
+    float rim_glow = pow((1. - cos_view_normal), rim_width * 2.);
     rim_glow_color *= rim_glow;
 
+    vec3 edge_glow_color = vec3(0.8, 1.0, 0.0784);
+    float edge_glow = pow((1. - cos_view_normal), rim_width * 2.);
+    edge_glow_color *= edge_glow;
+
+    vec3 edge_both_color = mix(rim_glow_color, edge_glow_color, edge_glow);
     vec3 rim_both_color = mix(rim_color, rim_glow_color, rim_glow);
-
-
-    
-    // gl_FragColor.rgb = mix(uMaterialColor.rgb, rim_both_color, rim) + specular;
-    // gl_FragColor.rgb = mix(uMaterialColor.rgb, rim_color, rim);
-    // gl_FragColor.rgb = rim_color;
-    // gl_FragColor.rgb = vec3(rim);
-    // gl_FragColor.rgb = vec3(cos_view_normal);
-    gl_FragColor.rgb = mix(uMaterialColor.rgb, rim_both_color, rim) + specular + specular;
+    vec3 rim_and_edge = mix(edge_both_color, rim_both_color, edge);
+    gl_FragColor.rgb = mix(uMaterialColor.rgb, rim_and_edge, rim) + specular + specular;
 }
 
 
