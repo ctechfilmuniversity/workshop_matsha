@@ -9,6 +9,7 @@ has_children: false
 
 In this section you find all slides for the course divided by topic.
 
+<!-- 
 * [01 - Day 1](matsha_ws2122_01_day1_slides.html)
 * [02 - Introduction](matsha_ws2122_02_intro_slides.html)
 * [03 - Local Illumination](matsha_ws2122_03_localillu_slides.html)
@@ -18,4 +19,5 @@ In this section you find all slides for the course divided by topic.
 * [07 - Day 3](matsha_ws2122_07_day3_slides.html)
 * [08 - Fresnel](matsha_ws2122_08_fresnel_slides.html)
 * [09 - Shading Interfaces](matsha_ws2122_09_interfaces_slides.html)
-* [10 - Day 4](matsha_ws2122_10_day4_slides.html)
+* [10 - Day 4](matsha_ws2122_10_day4_slides.html) 
+* -->

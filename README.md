@@ -2,8 +2,6 @@
 
 Prof. Dr. Lena Gieseke | l.gieseke@filmuniversitaet.de | Film University Babelsberg *KONRAD WOLF*
 
-Winter Term 21/22
-
 ---
 
 Please go here: https://ctechfilmuniversity.github.io/workshop_matsha/
