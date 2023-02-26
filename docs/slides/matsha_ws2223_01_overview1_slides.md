@@ -72,18 +72,17 @@ Day 1
 --
 * Example: Implementation of p5's materials
 
---
-* Example: Toon shading
+
 
 --
 
 Day 2
 
 --
-* Advanced Material Properties
+* NPR
 
 --
-* Example: Fresnel
+* Advanced Material Properties
 
 --
 * Physically-based Shading
