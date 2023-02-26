@@ -7,9 +7,29 @@ nav_exclude: true
 
 # Exercise 2
 
-## Re-Implementation of p5's Materials
+## Let`s Look At Some Materials  🔎
 
-Make sure to have working setup with VSCode, p5 and starting a server.
+Photograph at least 10 materials, including different shadings.
 
-Then start with the `../code/shader_sphere_all/` and implement [the steps](../code/shader_sphere_all/shader_sphere_all_steps.md) one by one.
+* Add your images to a file `matsha_ws2223_01_exercise_surname.md` (you can use a copy of [`matsha_ws2223_01_exercise_gieseke.md`](submissions/matsha_ws2223_01_exercise_gieseke.md))
+* Upload that file to `/docs/exercise/submissions/`
+* Link and upload your images to `/docs/exercise/submissions/img/`
+* Please add the following header to your .md file at the top:
+
+```
+---
+layout: default
+title: Exercise
+nav_exclude: true
+---
+```
+
+Describe and compare two interesting shading behaviors in your photos as bullet points.
+
+* If possible, move the object and see how it reacts to different lighting situations. 
+* How does the shading look like and why?
+* What kind of highlights does the object have?
+* How do the highlights change when you move the object?
+* Add your text to the .md of 1.
+
 
