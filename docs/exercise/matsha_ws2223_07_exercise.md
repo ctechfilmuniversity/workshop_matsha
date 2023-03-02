@@ -11,7 +11,7 @@ nav_exclude: true
 
 Develop a project in two randomly assigned groups for the the *Shading Appreciation Society*.  
 
-![shading_04](../slides/shading_04.png) [[designcrowd]](https://blog.designcrowd.com/article/885/the-power-of-shading--how-to-bring-illustrations-to-life)
+![shading_04](../slides/img/shading_04.png) [[designcrowd]](https://blog.designcrowd.com/article/885/the-power-of-shading--how-to-bring-illustrations-to-life)
 
 
 * The project must include material & shading aspects either as visual elements or as topic.
