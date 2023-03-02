@@ -171,6 +171,27 @@ Lambertian diffuse BRDF vs. Disney diffuse BRDF
 
 ## Glossiness
 
+.center[<img src="img/glossy_01.png" alt="glossy_01" style="width:75%;">[[strelok]](http://www.luxrender.net/forum/gallery2.php?g2_itemId=16543)]
+
+.footnote[[TU Wien | Rendering 186.101 | Károly Zsolnai-Fehér]]
+
+---
+
+.header[BRDFs]
+
+## Glossiness
+
+.center[<img src="img/glossy_02.png" alt="glossy_02" style="width:75%;">[[strelok]](http://www.luxrender.net/forum/gallery2.php?g2_itemId=16543)]
+
+.footnote[[TU Wien | Rendering 186.101 | Károly Zsolnai-Fehér]]
+
+
+---
+
+.header[BRDFs]
+
+## Glossiness
+
 BRDFs are often a careful mixture of diffuse und specular reflection, e.g. to control *glossiness*.
 
 
@@ -227,25 +248,6 @@ In a modern physically-based rendering context the same effect are usually descr
 [[stackexchange]](https://computergraphics.stackexchange.com/questions/5482/what-is-the-difference-between-glossy-and-specular-reflectionl)]
 
 
----
-
-.header[BRDFs]
-
-## Glossiness
-
-.center[<img src="img/glossy_01.png" alt="glossy_01" style="width:75%;">[[strelok]](http://www.luxrender.net/forum/gallery2.php?g2_itemId=16543)]
-
-.footnote[[TU Wien | Rendering 186.101 | Károly Zsolnai-Fehér]]
-
----
-
-.header[BRDFs]
-
-## Glossiness
-
-.center[<img src="img/glossy_02.png" alt="glossy_02" style="width:75%;">[[strelok]](http://www.luxrender.net/forum/gallery2.php?g2_itemId=16543)]
-
-.footnote[[TU Wien | Rendering 186.101 | Károly Zsolnai-Fehér]]
 
 
 ---
@@ -574,14 +576,9 @@ The [Fresnel Equations](https://www.wikiwand.com/en/Fresnel_equations) define fo
 * But how do we compute those reflected and refracted constants?
 * These are given by the Fresnel Equations.  For a non-metal like water, all that you need for them is the refractive index of the material.  
 
---
 
 .center[<img src="img/fresnel_14.png" alt="fresnel_14" style="width:100%;"> [[psgraphics]](https://psgraphics.blogspot.com/2020/03/fresnel-equations-schlick-approximation.html)]
 
-
-
-???
-.task[COMMENT:]  
 
 * Left: the light hitting the water divides between reflected and refracted based on angle (for this particular one it is 23% reflected).  Right: the eye sees 77% of whatever color comes from below the water and 23% of whatever color comes from above the water.
 * E.g., `color = 0.77*color(refracted_ray) + 0.23*color(reflected_ray)`

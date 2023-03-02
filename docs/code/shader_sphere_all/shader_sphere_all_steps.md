@@ -56,7 +56,7 @@ uniform int uAmbientLightCount;
 uniform vec3 uAmbientColor[LIGHTS_NUMBER_MAX];
 
 // ATTRIBUTES
-// Per-vertex parameters (typically : positions, normals, colors, UVs, ...)
+// Per-vertex parameters (typically: positions, normals, colors, UVs, ...)
 // Defined by the render engine
 // Can only be used in vertex shaders
 // Read-only
@@ -189,10 +189,11 @@ Ambient light is constant an can be summed up in the vertex shader
 
 // TODO 8
 // LIGHT
-    // The ambient color does not depend
+// The ambient color does not depend
 // one the fragment, hence we can
 // assemble it more effeciently in the 
-// vertex than in the fragement shader    v_light_color_ambient = vec3(0.0);
+// vertex than in the fragement shader    
+v_light_color_ambient = vec3(0.0);
 for (int i = 0; i < LIGHTS_NUMBER_MAX; i++)
 {
     if (i < uAmbientLightCount) 
