@@ -8,7 +8,7 @@ class: center, middle, inverse
 
 # Materials and Shading Workshop
 
-### XX - Physically-Based Materials
+### 08 - Physically-Based Materials
 
 <!--
 h or ?: Toggle the help window

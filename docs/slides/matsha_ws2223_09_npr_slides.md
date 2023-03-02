@@ -8,7 +8,7 @@ class: center, middle, inverse
 
 # Materials and Shading Workshop
 
-### 06 - NPR
+### 09 - NPR
 
 <!--
 h or ?: Toggle the help window

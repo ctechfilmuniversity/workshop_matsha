@@ -8,7 +8,7 @@ class: center, middle, inverse
 
 # Materials and Shading Workshop
 
-### 06 - Global Illumination
+### 07 - Global Illumination
 
 <!--
 h or ?: Toggle the help window
