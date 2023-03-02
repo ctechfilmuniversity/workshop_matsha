@@ -46,8 +46,13 @@ void main(void)
 }
 ```
 
+<!-- 
+
 * https://graphtoy.com/
 * Show x, x^2, X^0.5
+
+-->
+
 
 ## 3. Coloring The Rim
 
