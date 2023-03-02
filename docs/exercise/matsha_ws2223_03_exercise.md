@@ -11,7 +11,7 @@ nav_exclude: true
 
 *What are the visual properties of a toon shader?*
 
-![sphere_toon](../img/sphere_toon.png)
+![sphere_toon](../slides/img/sphere_toon.png)
 
 <!-- 
 * Flat shading
