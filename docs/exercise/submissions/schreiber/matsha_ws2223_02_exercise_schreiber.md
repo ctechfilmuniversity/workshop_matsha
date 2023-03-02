@@ -47,8 +47,10 @@ I found the following things:
 
 ## 10. The Epoxy Resin Thinker
 
-<img src="img/thinker4.jpg" width="45%"></img> <img src="img/thinker3.jpg" width="45%"></img>
-<img src="img/thinker2.jpg" width="45%"></img> <img src="img/thinker1.jpg" width="45%"></img>
+<img src="img/thinker_1.1.jpg" width="45%"></img> <img src="img/thinker_1.2.jpg" width="45%"></img>
+<img src="img/thinker4.jpg" width="45%"></img> <img src="img/thinker6.jpg" width="45%"></img>
+<img src="img/thinker3.jpg" width="45%"></img> <img src="img/thinker2.jpg" width="45%"></img>
+<img src="img/thinker1.jpg" width="45%"></img> <img src="img/thinker5.jpg" width="45%"></img> 
 
 > Describe and compare two interesting shading behaviors in your photos as bullet points:
 > If possible, move the object and see how it reacts to different lighting situations.
