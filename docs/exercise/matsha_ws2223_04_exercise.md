@@ -19,8 +19,10 @@ nav_exclude: true
 * Outline
 * Small light highlight
 * Outline around highlight 
--->
 
 [test](../code/shader_sphere_toon_smooth/index.html)
+-->
+
+
 
 Start with the  code frame `../code/shader_sphere_toon_smooth/` and implement [the steps](../code/shader_sphere_toon_smooth/shader_sphere_toon_smooth_steps.md) one by one.
