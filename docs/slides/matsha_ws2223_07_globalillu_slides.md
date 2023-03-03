@@ -366,7 +366,7 @@ Nowadays, you can understand path tracing as taking *smart paths*, e.g. tracing 
 
 ## Monte Carlo Path Tracing
 
-Fewer rays would result in a less realistic lighting, but since the surface color is not affected by most of the secondary ray, dumping rays has often almost no effect.
+Fewer rays would result in a less realistic lighting, but since the surface color is not affected by most of the secondary rays, dumping rays has often almost no effect.
 
 
 ---
@@ -442,7 +442,7 @@ Published by NVIDIA for its RTX Path Tracing SDK: real-time path tracing of a sc
     * Distribute light particles in scene, then ray tracing
     * Good for spatially focused light effects such as caustics
 * Radiosity
-    * Finite element method: surfaces each divided up into one or more smaller surfaces
+    * Finite element method: surfaces are divided into one or more smaller surfaces
     * Light is simulated between patches based on a view factor
     * Reduces the infinite dimensional rendering equation to a finite number of dimensions
     * Efficient for overall smooth lighting and reflections
@@ -452,6 +452,7 @@ See wiki's [List of methods](https://en.wikipedia.org/wiki/Global_illumination) 
 ???
 .task[COMMENT:]  
 
+* https://herbertsstuff.wordpress.com/2015/06/07/rendering-algorithms-photon-mapping/
 * https://cglearn.codelight.eu/pub/computer-graphics/global-illumination
 * https://ohiostate.pressbooks.pub/graphicshistory/chapter/19-5-global-illumination/
 

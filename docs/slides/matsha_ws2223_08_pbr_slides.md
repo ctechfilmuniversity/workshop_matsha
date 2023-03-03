@@ -221,6 +221,24 @@ Energy conservation of this sort is an important aspect of physically-based shad
 * It is this apparent difference in brightness that is key: both materials are reflecting the same amount of light, but the rougher surface is spreading it out in different directions, whereas the smoother surface is reflecting a more concentrated “beam”:
 * Here we have a second form of energy conservation that must be maintained, in addition to the diffusion/reflection balance described earlier. Getting this right is one of the more important points required for any renderer aspiring to be “physically-based”.
 
+
+---
+.header[Physically-Based Shading]
+
+## Roughness / Micro-Surface Properties 
+
+.center[<img src="img/pbr_03.png" alt="pbr_03" style="width:100%;">  
+[[marmoset]](https://marmoset.co/posts/basic-theory-of-physically-based-rendering/)]
+
+
+???
+.task[COMMENT:]  
+
+* microsurface detail and reflectivity are tied together
+* A good example would be water and mud: both have very similar reflectivity, but since mud is quite rough and the surface of a puddle is very smooth, they appear very different in terms of their reflections. 
+* Microsurface properties have other subtle effects on reflection as well. For example, the “edges-are-brighter” Fresnel effect diminishes somewhat with rougher surfaces (the chaotic nature of a rough surface ‘scatters’ the Fresnel effect, preventing the viewer from being able to clearly resolve it). Further, large or concave microsurface features can “trap” light – causing it to reflect against the surface multiple times, increasing absorption and reducing brightness. Different rendering systems handle these details in different ways and to different extents, but the broad trend of rougher surfaces appearing dimmer is the same.
+
+
 ---
 .header[Physically-Based Shading]
 
@@ -318,22 +336,6 @@ Metals as electrically conductive materials.
 
 
 
----
-.header[Physically-Based Shading]
-
-## Roughness / Micro-Surface Properties 
-
-.center[<img src="img/pbr_03.png" alt="pbr_03" style="width:100%;">  
-[[marmoset]](https://marmoset.co/posts/basic-theory-of-physically-based-rendering/)]
-
-
-???
-.task[COMMENT:]  
-
-* microsurface detail and reflectivity are tied together
-* A good example would be water and mud: both have very similar reflectivity, but since mud is quite rough and the surface of a puddle is very smooth, they appear very different in terms of their reflections. 
-* Microsurface properties have other subtle effects on reflection as well. For example, the “edges-are-brighter” Fresnel effect diminishes somewhat with rougher surfaces (the chaotic nature of a rough surface ‘scatters’ the Fresnel effect, preventing the viewer from being able to clearly resolve it). Further, large or concave microsurface features can “trap” light – causing it to reflect against the surface multiple times, increasing absorption and reducing brightness. Different rendering systems handle these details in different ways and to different extents, but the broad trend of rougher surfaces appearing dimmer is the same.
-
 
 ---
 
@@ -349,7 +351,9 @@ But PBR **looks and behaves** more realistic, e.g., by relating the different qu
 ???
 .task[COMMENT:]  
 
-* More special effects: https://docs.unrealengine.com/5.1/en-US/shading-models-in-unreal-engine/
+* More special shading effects
+    * https://docs.unrealengine.com/5.1/en-US/shading-models-in-unreal-engine/
+    * https://www.sidefx.com/docs/houdini/nodes/vop/principledshader.html
 
 --
 

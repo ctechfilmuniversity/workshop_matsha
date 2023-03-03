@@ -41,10 +41,7 @@ layout:false
 * Global Illumination
 
 --
-* Advanced Material Properties
-
---
-* Physically-based Shading
+* Advanced Material Properties & Physically-based Shading
 
 --
 * NPR
